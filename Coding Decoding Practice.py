@@ -6,8 +6,7 @@ word=input("Enter your word?")
 a=""
 if(reply=='c' or reply=='C'):
     if (len(word)<=3):
-        for char in word:
-         a=char+a
+        a=word[::-1]
     else:
        firstRandom=''.join(random.choice(string.ascii_letters) for _ in range(3))
        lastRandom=''.join(random.choice(string.ascii_letters) for _ in range(3))
@@ -23,8 +22,7 @@ elif(reply=='d' or reply=='D'):
         word=word.replace(word[0:3],"")
         word=word.replace(word[-3:],"")     
         if(len(word)<=3):
-           for char in word:
-              a=char+a
+           a=word[::-1]
         else:
            char=word[-1]
            word=word.replace(word[-1],"")
