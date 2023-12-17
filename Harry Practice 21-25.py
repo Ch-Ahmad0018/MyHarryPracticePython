@@ -1,3 +1,4 @@
+# ------------------------------------21. Function Arguments----------------------------------------------
 # Default arguments
 # def average(a=8,b=9):
 #     print("The average of two numbers is ",(a+b)/2)
@@ -29,7 +30,7 @@
 
 # -------------------------------------22. Lists---------------------------------------------------------
 
-marks=[22,4,3,2,1,6,7]
+# marks=[22,4,3,2,1,6,7]
 # print(len(marks))
 # -------for checking value in list
 # if 7 in marks:
@@ -76,7 +77,7 @@ marks=[22,4,3,2,1,6,7]
 # print(k)
 
 # ------------------------------------------24. Tuples---------------------------------------------------------
-tup=(1,2,3,4,5)
+# tup=(1,2,3,4,5)
 # tup[0]=88
 # The above change not possible
 # print(type(tup),tup)
@@ -84,19 +85,19 @@ tup=(1,2,3,4,5)
 #     print("Yes 2 is present")
 
 # -------------------------------------25. Tuples Operations-----------------------------------------------------
-temp=list(tup)   
-# We convert tuple to list above
-# temp.append("Russia")
-# temp.pop(2)
-print(temp.index(2,0,4))
-# countries=tuple(temp)
-# We convert list to tuple above
-# print(type(countries),countries)
+# temp=list(tup)   
+# # We convert tuple to list above
+# # temp.append("Russia")
+# # temp.pop(2)
+# print(temp.index(2,0,4))
+# # countries=tuple(temp)
+# # We convert list to tuple above
+# # print(type(countries),countries)
 
-# subcontinent=("India","Pakistan","Bangladesh")
-# middleEast=("Iran","Iraq","Qatar")
-# Asia=subcontinent+middleEast
-# print(Asia)
-a=(1,2,1,1,1,1,3,4,5,6,7)
-print(a.index(1,2,6))
+# # subcontinent=("India","Pakistan","Bangladesh")
+# # middleEast=("Iran","Iraq","Qatar")
+# # Asia=subcontinent+middleEast
+# # print(Asia)
+# a=(1,2,1,1,1,1,3,4,5,6,7)
+# print(a.index(1,2,6))
 # print(Asia.count("Iran"))
