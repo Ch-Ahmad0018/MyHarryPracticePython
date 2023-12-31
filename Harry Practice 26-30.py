@@ -16,23 +16,31 @@
 
 # # ----------------------------------------30. Recursion---------------------------------------------
 # # factorial example
-def factorial(n):
-    if(n==0 or n==1):
-        return 1
-    else:
-        return n*factorial(n-1)
-    
-factorial(3)
-factorial(4)
-factorial(5)
-# That's called recursion function ko function k andar call krna
-
-# fibonacci series example 
-
-# def fibonacci(n):
+# print("Ahmad")
+# def factorial(n):
 #     if(n==0 or n==1):
 #         return 1
 #     else:
-#         return fibonacci(n-1)+fibonacci(n-2)
+#         return n*factorial(n-1)
     
-# fibonacci(5)
+# factorial(3)
+# factorial(4)
+# factorial(5)
+# That's called recursion function ko function k andar call krna
+
+# Write a program to input list of integers. The list ends when the user enters 0. Also count
+# how many numbers are entered by the user.
+
+# arr=[]
+# while(True):
+#     a=int(input("Enter your integer"))
+#     if (a==0):
+#         break
+#     else:
+#         arr.append(a)
+
+
+
+# print(arr)
+# print(arr.index(45))
+# print(len(arr))
